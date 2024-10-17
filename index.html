@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Five Nights at Lautaco</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Five Nights at Lautaco</h1>
+        <div id="camera-view">
+            <p>Estás viendo la cámara: <span id="current-camera">1</span></p>
+        </div>
+        <div class="controls">
+            <button id="camera-left">Cámara Anterior</button>
+            <button id="camera-right">Cámara Siguiente</button>
+        </div>
+        <button id="toggle-light">Encender Luz</button>
+        <div id="enemy-alert"></div>
+        <p id="message"></p>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
